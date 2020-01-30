@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <title>Medios del Norte SRL</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+              body{
+                background-image:url(../Medios-Del-Norte/Images/Backgrounds/background-6.png);
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+                background-size:cover;  
+                color: white;
+              }
+              .channels img:hover {
+                rotate: 5px;
+              }
+
+              .w3-card-4{
+                padding-right: 10px;
+              }
+
+              .zoom img:hover {
+                transform: scale(1.09);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+               }
+
+               .zoom .w3-container {
+                background-color: white!important;
+                color: black;
+               }
+
+               .infous {
+                 font-size: medium;
+               }
+
+               .contact_css{
+                text-decoration: none;
+                display: inline-block;
+                vertical-align: middle;
+                transform: translateZ(0);
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                backface-visibility: hidden;
+                -moz-osx-font-smoothing: grayscale;
+                transition-duration: 0.3s;
+                transition-property: transform;
+               }
+               .contact_css:hover{
+                transform: scale(1.1);
+                
+               }
+
+                /* Add a black background color to the top navigation */
+                .topnav {
+                  background-color: #333;
+                  overflow: hidden;
+
+
+                }
+
+                @media screen and (min-width: 760px) {
+                  .topnav{
+                    position: fixed;
+                    margin-top: -80px;
+                    z-index: 100000000000;
+                    width: 100%;
+                  }
+                  }
+
+
+                /* Style the links inside the navigation bar */
+                .topnav a {
+                  float: left;
+                  display: block;
+                  color: #f2f2f2;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  font-size: 17px;
+                  
+                }
+
+                /* Change the color of links on hover */
+                .topnav a:hover {
+                  background-color: #ddd;
+                  color: black;
+                }
+
+                /* Add an active class to highlight the current page */
+                .topnav a.active {
+                  background-color: #4CAF50;
+                  color: white;
+                }
+
+                /* Hide the link that should open and close the topnav on small screens */
+                .topnav .icon {
+                  display: none;
+                }
+
+
+
+                  @media screen and (max-width: 500px) {
+                  .Nelson_margin{
+                    margin-left:auto!important;
+                  }
+                  }
+
+                /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+                @media screen and (max-width: 600px) {
+                  .topnav a:not(:first-child) {display: none;}
+                  .topnav a.icon {
+                    float: right;
+                    display: block;
+                  }
+
+                }
+
+                /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+                @media screen and (max-width: 600px) {
+                  .topnav.responsive {position: relative;}
+                  .topnav.responsive a.icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                  }
+                  .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                  }
+                }
+
+            </style>
+
+            <!-- <link href="Main_CSS.css" rel="stylesheet" type="text/css"> -->
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body >
+
+
+            <div class="topnav" id="myTopnav">
+              <a href="#" class="active">Inicio</a>
+              <a href="#ofert">Empresa</a>
+              <a href="#about">Nosotros</a>
+              <a href="#contact">Contacto</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            
+            <!-- Content -->
+            <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+            
+              <div class="w3-panel hvr-underline-from-center">
+                <img src="../Medios-Del-Norte/Images/Principal Logo.png" alt="Logo Principal" style="width:40%"  >
+                <!-- <h1><b>Medios del Norte</b></h1> -->
+              </div>
+            
+              <!-- Slideshow -->
+            <div class="w3-container channels w3-center" style="width: 80%; margin-left: 12%;">
+
+                <div class="w3-display-container mySlides">
+                  <a href="http://www.telecontacto.tv/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/TELE.png" alt="Telecontacto" style="width:100%">
+                  </a>
+                  <div class="w3-display-topleft w3-container w3-padding-32">
+                    <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Telecontacto</span> -->
+                  </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <a href="http://www.galaxiateve.net/">
+                      <img src="../Medios-Del-Norte/Images/Channels/916x470 png/GALAXIA.png" alt="Galaxia TV" style="width:100%">
+                    </a>
+                    <div class="w3-display-topleft w3-container w3-padding-32">
+                      <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Galaxia TV</span> -->
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                  <a href="http://www.tvexitos.net/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/TV_exitos.png" alt="TV exitos" style="width:100%">
+                  </a>
+                  <div class="w3-display-topleft w3-container w3-padding-32">
+                    <!-- <span class="w3-white w3-padding-large w3-animate-bottom">TV Exitos</span> -->
+                  </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                  <a href="http://www.megatvrd.net/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/MegaTV.png" alt="MegaTV" style="width:100%">
+                  </a>
+                    <div class="w3-display-topleft w3-container w3-padding-32">
+                      <!-- <span class="w3-white w3-padding-large w3-animate-bottom">MegaTV</span> -->
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                  <a href="http://www.ecovisionrd.com/">
+                      <img src="../Medios-Del-Norte/Images/Channels/916x470 png/ECO.png" alt="Eco Vision" style="width:100%">
+                  </a>
+                  <div class="w3-display-topleft w3-container w3-padding-32">
+                    <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Eco Vision</span> -->
+                  </div>
+                </div>
+
+              <div class="w3-display-container mySlides">
+                <a href="http://www.contacto917fm.net/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/CONTACTO.png" alt="Contacto 91.7" style="width:100%">
+                </a>
+                <div class="w3-display-topleft w3-container w3-padding-32">
+                  <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Contacto 91.7 RadioFM</span> -->
+                </div>
+              </div>
+
+              <div class="w3-display-container mySlides">
+                <a href="http://www.oxigenoradiofm.com/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/OXIN.png" alt="Oxigeno 102.5 RadioFM" style="width:100%">
+                </a>
+                <div class="w3-display-topleft w3-container w3-padding-32">
+                  <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Oxigeno 102.5 RadioFM</span> -->
+                </div>
+              </div>
+
+              <div class="w3-display-container mySlides">
+                <a href="http://www.mega89fm.net/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/MEGA89.1.png" alt="Mega 89.1" style="width:100%">
+                </a>
+                <div class="w3-display-topleft w3-container w3-padding-32">
+                  <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Mega 89.1 RadioFM</span> -->
+                </div>
+              </div>
+
+              <div class="w3-display-container mySlides">
+                <a href="http://www.expresofm.net/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/EXPRESSO.png" alt="Expreso RadioFM" style="width:100%">
+                </a>
+                <div class="w3-display-topleft w3-container w3-padding-32">
+                  <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Expreso RadioFM</span> -->
+                </div>
+              </div>
+
+              <div class="w3-display-container mySlides">
+                <a href="http://www.salserisimard.com/">
+                    <img src="../Medios-Del-Norte/Images/Channels/916x470 png/Salserisima.png" alt="Salserisima RD" style="width:100%">
+                </a>
+                <div class="w3-display-topleft w3-container w3-padding-32">
+                  <!-- <span class="w3-white w3-padding-large w3-animate-bottom">Salserisima RD</span> -->
+                </div>
+              </div>
+
+
+
+
+            
+                <!-- Slideshow next/previous buttons -->
+                <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+                  <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+                  <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+                
+                  <!-- <div class="w3-center">
+                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                  </div> -->
+                </div>
+              </div>
+              
+              <!-- Grid -->
+              <div class="w3-row w3-container" id="ofert">
+                <div class="w3-center w3-padding-64">
+                  <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nuestra Empresa</span>
+                </div>
+                <div class="">
+                    <div class="w3-row l4 m6 w3-light-grey w3-container w3-padding-16">
+                      <h3>Acerca de nosotros</h3>
+                      <p>Somos un grupo de medios de comunicación conformado por los canales Telecontacto, Galaxia Teve, Teve Exitos y la emisora Contacto 91.7 FM.                                                                                    </p>
+                    </div>
+                
+                    <div class="w3-row l4 m6 w3-grey w3-container w3-padding-16">
+                      <h3>Visión</h3>
+                      <p>Como grupo de medios, es nuestra visión convertirnos en una empresa líder en comunicaciones, con altos estándares de admiración y llegada.                                                                                    </p>
+                    </div>
+                
+                    <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
+                      <h3>Misión</h3>
+                      <p>Satisfacer las necesidades de entretenimiento e información, con contenidos de calidad para nuestra audiencia, convirtiéndonos en parte activa de la sociedad del conocimiento, promoviendo los valores culturales y democráticos.
+                      </p>
+                    </div>
+                </div>
+            
+              </div>
+            
+              <!-- Grid
+              <div class="w3-row-padding" id="plans">
+                <div class="w3-center w3-padding-64">
+                  <h3>Pricing Plans</h3>
+                  <p>Choose a pricing plan that fits your needs.</p>
+                </div>
+            
+                <div class="w3-third w3-margin-bottom">
+                  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+                    <li class="w3-padding-16"><b>10GB</b> Storage</li>
+                    <li class="w3-padding-16"><b>10</b> Emails</li>
+                    <li class="w3-padding-16"><b>10</b> Domains</li>
+                    <li class="w3-padding-16"><b>Endless</b> Support</li>
+                    <li class="w3-padding-16">
+                      <h2 class="w3-wide">$ 10</h2>
+                      <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                      <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+                    </li>
+                  </ul>
+                </div>
+            
+                <div class="w3-third w3-margin-bottom">
+                  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+                    <li class="w3-padding-16"><b>25GB</b> Storage</li>
+                    <li class="w3-padding-16"><b>25</b> Emails</li>
+                    <li class="w3-padding-16"><b>25</b> Domains</li>
+                    <li class="w3-padding-16"><b>Endless</b> Support</li>
+                    <li class="w3-padding-16">
+                      <h2 class="w3-wide">$ 25</h2>
+                      <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                      <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+                    </li>
+                  </ul>
+                </div>
+            
+                <div class="w3-third w3-margin-bottom">
+                  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+                    <li class="w3-padding-16"><b>50GB</b> Storage</li>
+                    <li class="w3-padding-16"><b>50</b> Emails</li>
+                    <li class="w3-padding-16"><b>50</b> Domains</li>
+                    <li class="w3-padding-16"><b>Endless</b> Support</li>
+                    <li class="w3-padding-16">
+                      <h2 class="w3-wide">$ 50</h2>
+                      <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                      <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+                    </li>
+                  </ul>
+                </div>
+              </div> -->
+            
+              <!-- Grid -->
+              <div class="w3-row-padding zoom" id="about" style="z-index: 100000;">
+                
+                <div class="w3-center w3-padding-64">
+                  <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">¿Quiénes Somos?</span>
+                </div>
+            
+                <div class="w3-third w3-margin-bottom Nelson_margin" style="margin-left:17%">
+
+                  <div class="w3-card-4 " >
+                    <img src="../Medios-Del-Norte/Images/Admin/Nelson.jpeg" alt="Nelson Diaz" style="width:100%;  " >
+
+                    <div class="w3-container">
+                      <h3>Nelson Diaz</h3>
+                      <p class="w3-opacity">CEO & Fundador</p>
+                      <!-- <p>Todo se logra con trabajo duro</p> -->
+                    </div>
+                  </div>
+                </div>
+
+
+            
+                 <!-- <div class="w3-third w3-margin-bottom" style="margin: 0px; padding: 0px;">
+                  <div class="w3-card-4">
+
+                    <div class="w3-container">
+
+                    </div>
+                  </div>
+                </div> -->
+            
+                <div class="w3-third w3-margin-bottom" >
+
+                  <div class="w3-card-4">
+                    <img src="../Medios-Del-Norte/Images/Admin/Vivian.jpeg" alt="Vivian" style="width:100%; ">
+
+                    <div class="w3-container">
+                      <h3>Vivian Diaz</h3>
+                      <p class="w3-opacity">Administradorar</p>
+                      <!-- <p>test</p> -->
+                      <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            
+              <!-- Contact -->
+
+            <!-- Contact Container -->
+            <div class="w3-container w3-padding-64 w3-theme-l5 infous" id="contact">
+                <div class="w3-row">
+                <div class="w3-col m5">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="color:beige">Contactanos</span></div>
+                    <h3 style="color:beige">Dirección:</h3>
+                    <!-- <p>Swing by for a cup of coffee, or whatever.</p> -->
+                    <a class="contact_css"  href="https://www.google.com/maps/place/TELECONTACTO/@19.47612,-70.7149831,61m/data=!3m1!1e3!4m5!3m4!1s0x8eb1c5e1896fb2dd:0xe6e1e6cf80361ed3!8m2!3d19.4761334!4d-70.7149306!5m1!1e4"><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> C / Los Pinos 29, Las Colinas, Santiago De Los Caballeros, Republica Dominicana.</a>
+                    <h3 style="color:beige">Numero Telefonico:</h3>
+                    <a  class="contact_css" href="tel:+18095700264"><i class="fa fa-phone w3-text-teal w3-xlarge" style="margin-right: 10px;"></i>+1 809-570-0264</a>
+                    <h3 style="color:beige">Correo Electronico:</h3>
+                    <a class="contact_css" href="mailto:mediosdelnortesrl@gmail.com?Subject=Contacto" ><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  mediosdelnortesrl@gmail.com</a>
+                </div>
+                <!-- <div class="w3-col m7">
+                    <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+                    <div class="w3-section">      
+                    <label>Name</label>
+                    <input class="w3-input" type="text" name="Name" required>
+                    </div>
+                    <div class="w3-section">      
+                    <label>Email</label>
+                    <input class="w3-input" type="text" name="Email" required>
+                    </div>
+                    <div class="w3-section">      
+                    <label>Message</label>
+                    <input class="w3-input" type="text" name="Message" required>
+                    </div>  
+                    <input class="w3-check" type="checkbox" checked name="Like">
+                    <label>I Like it!</label>
+                    <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+                    </form>
+                </div> -->
+                </div>
+            </div>
+            
+            </div>
+            
+            <!-- Footer -->
+            
+            <!-- class="w3-container w3-padding-32 w3-light-grey w3-center"> -->
+
+
+            <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+              <h4 style="margin-right: 200px;">Siguenos</h4>
+              <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Youtube"><i class="fa fa-youtube"></i></a>
+
+
+              <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Hacia arriba</a>
+              <div class="w3-xlarge w3-section">
+                <!-- <a href="https://www.facebook.com/telecontacto57/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a> -->
+              <h6>Pagina diseñada por: Aglis Tamayo</h6>
+              <h6>Numero: 829-974-2713</h6> 
+            </footer>
+            
+            
+            <script>
+            // Slideshow
+
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+
+            var slideIndex = 1;
+            window.setInterval("plusDivs(1)", 5000);
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demodots");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length} ;
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+              }
+              x[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " w3-white";
+            }
+            </script>
+            
+        </body>
+    </html>
+            
