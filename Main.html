@@ -64,6 +64,45 @@
 
                 }
 
+                @import url(https://fonts.googleapis.com/css?family=Quando);
+                *, *:after, *:before {
+                  box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                }
+                * {margin:0;padding:0;border:0 none;position: relative; outline: none;
+                }
+
+                .admin_num {
+                  /* background: #0D757D;
+                  width: 100%;
+                  min-height: 200px;
+                  line-height: 200px;
+                  font-size: 3rem;
+                  font-weight: normal;
+                  text-align: center;
+                  color: rgba(0,0,0,.4);
+                  margin: 3rem auto 0; */
+                  font-size: 17px;
+                }
+                .admin_num:before {
+                  content: "";
+                  position: absolute;
+                  width: 100%;
+                  height: 3px;
+                  bottom: 0;
+                  left: 0;
+                  background: blue;
+                  visibility: hidden;
+                  border-radius: 5px;
+                  transform: scaleX(0);
+                  transition: .25s linear;
+                }
+                .admin_num:hover:before,
+                .admin_num:focus:before {
+                  visibility: visible;
+                  transform: scaleX(1);
+                }
+
                 @media screen and (min-width: 760px) {
                   .topnav{
                     position: fixed;
@@ -72,6 +111,12 @@
                     width: 100%;
                   }
                   }
+
+                @media screen and (max-width: 430px) {
+                .icons_medios{
+                  width: 60%!important;
+                }
+                }
 
 
                 /* Style the links inside the navigation bar */
@@ -310,71 +355,72 @@
                 <div class="">
                     <div class="w3-row l4 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline">Telecontacto</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/TELE.png" alt="Telecontacto" style="width:20%">
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/TELE.png" alt="Telecontacto" style="width:20%">
                       <h4>Es el Canal 57, opera desde la ciudad de Santiago de los Caballeros, nuestra señal está en la grilla de todos los sistemas de cable de la Región Norte, lo cual nos da una cobertura comprobada en los grandes mercados de Santiago, La Vega, Bonao, Moca, Puerto Plata, Valverde, Dajabón y Montecristi, incluyendo los municipios de esas ciudades, completando así una cobertura Nacional incluyendo la de Santo Domingo, a través de Claro TV en el mismo canal 57,conformando así una programación de contenido variado, para toda la familia, las 24 horas del día. </h4>
                     </div>
                 
                     <div class="w3-row l4 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline">Galaxiateve</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/GALAXIA.png" alt="Galaxiateve" style="width:16%;">
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/GALAXIA.png" alt="Galaxiateve" style="width:16%;">
                       <h4>Somos pueblo, somos imagen de nuestra gente, Galaxia Tevé, Canal 42 proyectando cada día una televisión diferente. Orientado a todo tipo de público, es un canal que cuenta con una programación en vivo de 24 horas.Transmite desde Santiago. Gozamos de una gran aceptación popular por nuestros programas de corte noticioso local. Nuestra cobertura abarca Santiago, La Vega, Bonao, Moca, Puerto Plata, Valverde, Dajabón y Montecristi, incluyendo los municipios de esas ciudades.</h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline">TV Exitos</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/TV_exitos.png" alt="TV_exitos" style="width:22%">
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/TV_exitos.png" alt="TV_exitos" style="width:22%">
                       <h4>Este Canal especializado en música y videos actualizados de corte internacional, las 24 horas del día. Además en Tv Éxitos hay programas orientado a un mercado joven, con noticias del Cine y el Espectáculo. Estamos monitoreado en el orden musical por las prestigiosas firmas internacionales Monitor Latino y Chequiador.com, porque atreves de sus reportes nuestra programación incide en todas las plataformas de sondeos de música en el mundo latino. Tv Éxitos cuenta con la cobertura del Canal 51 de Star Cable. 
                       </h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline">EcoVision</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/ECO.png" alt="Eco" style="width:17%">
-                      <h4>Es un Canal totamente especializado en documentales que destacan el medio ambiente, los destinos turisticos, los deportes extremos, ecoaventuras, lugares exoticos, grandes ciudadades. Todos estos reportajes proyectados en calidad HD 
-                          Ecovision a venido a llenar un hueco en la television de Republica Dominicana, de ahi su gran penetracion, porque es una via de conocer el mundo, con imagenes reales y reportes de culturas diferente, ademas le damos tambien mucha prioridad a lugares encantadores de nuestro pais. Eso es Ecovision en el Canal 24 de los sistemas de cable de Santiago y el Cibao.
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/ECO.png" alt="Eco" style="width:17%">
+                      <h4>Es un Canal totalmente especializado en documentales que destacan el medio ambiente, los destinos turísticos, los deportes extremos, ecoaventuras, lugares exóticos, grandes ciudades. Todos estos reportajes proyectados en calidad HD Ecovision a venido a llenar un hueco en la televisión de República Dominicana, de ahí su gran penetración, porque es una vía de conocer el mundo, con imágenes reales y reportes de culturas diferente, ademas le damos también mucha prioridad a lugares encantadores de nuestro país. Eso es Ecovision en el Canal 24 de los sistemas de cable de Santiago y el Cibao.
                       </h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline" style="color: white;">MegaTV</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/MegaTV.png" alt="MegaTV" style="width:27%">
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/MegaTV.png" alt="MegaTV" style="width:27%">
                       <h4>Está en los diferentes sistemas de cable en los canales 30 y 54, con una programación variada las 24 horas del día. Desde la Provincia Valverde, con una cobertura comprobada en las ciudades de Mao, Esperanza, Laguna Salada, Navarrete, Dajabon, Montecirsti y gran parte de los Municipios de Puerto Plata. Este canal cuenta con una excelente imagen y sólida programación identificada con toda la Región Noroestana.
                       </h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline" style="color: white;">Oxigeno 102.5FM</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/OXIN.png" alt="Oxigeno" style="width:29%">
-                      <h4>
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/OXIN.png" alt="Oxigeno" style="width:29%">
+                      <h4>Cuenta con una efectiva cobertura en las provincias de Valverde Mao, Puerto Plata, Santiago Rodriguez, Dajabon, Montecristi, Espaillat y sobre todo la gran ciudad de Santiago de los Caballeros, gracias a su potente transmisión ubicado a la altura del pico El Murazo, que junto a sus modernos procesadores de audio digital y unidos a una línea de programación 24 horas al día, con programas de opinión y bloques musicales, conectan directamente con el sentir del pueblo de toda la región Norte. Oxigeno llega a gran banco de público que es también parte directa de su mercado, a través de su portal web
                       </h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline">Contacto 91.7FM</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/CONTACTO.png" alt="Contacto" style="width:23%">
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/CONTACTO.png" alt="Contacto" style="width:23%">
                       <h4>Estacion de radio ubicada en la ciudad de Santiago, con una programacion de musica Urbana - Tropical de gran insidencia en el mercado joven, combinada con la animacion por turnos de excelentes locutores durante toda la programacion, ademas algunos programas interactivos en oportunos horarios del dia. Contacto 91.7 fm tiene una poderosa señal  para la ciudad de Santiago y asi como tambien una llegada a las demas ciudades circundantes.
                       </h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline" style="color: white;">Mega 89.1FM</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/MEGA89.1.png" alt="Mega89.1" style="width:25%">
-                      <h4>
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/MEGA89.1.png" alt="Mega89.1" style="width:25%">
+                      <h4>Emisora que cuenta con los equipos modernos procesadores de audio digital, todo esto unido a una línea programática de 24 horas al día, con programas de opinión y bloques musicales que conectan directamente con el pueblo. MEGA 89.1FM es una estación que hoy por hoy es un medio de representa gran parte el sentir de la toda la región.
+                        MEGA 89.1FM,ahora con mucho mayor cobertura, ya que tiene un potente transmisor ubicado en la altura de la Loma Murazo permitiendo así tener una señal primaria cubriendo con efectividad en las Provincia Valverde Mao, Puerto Plata, Santiago Rodríguez, Dajabon, Montecristi y sobre todo la gran Ciudad de Santiago. Llegando a un gran blanco de público que es también parte directa de su mercado. Estamos además llegando a una audiencia internacional, a través de nuestro actualizado portal de la internet.
                       </h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline" style="color: white;">Expressofm.net</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/EXPRESSO.png" alt="expresofm" style="width:25%">
-                      <h4 >
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/EXPRESSO.png" alt="expresofm" style="width:25%">
+                      <h4>Estacion de Radio en la web con lo mejor de la música moderna de las décadas 60, 70,80, 90 y del 2000 en adelante, totalmente programada para un mercado adulto joven.
                       </h4>
                     </div>
 
                     <div class="w3-row l8 m6 w3-dark-grey w3-container w3-padding-16">
                       <h3 class="underline" style="color: white;">Salserisimard.net</h3>
-                      <img src="../Medios-Del-Norte/Images/Channels/916x470 Trans/Salserisima.png" alt="Salserisima" style="width:22%;">
-                      <h4 >
+                      <img class="icons_medios" src="../Medios-Del-Norte/Images/Channels/916x470 Trans/Salserisima.png" alt="Salserisima" style="width:22%;">
+                      <h4>Emisora online las 24 horas del día con una programación totalmente tropical salsa, donde se conjugan todas las épocas de la salsa tanto del pasado clásico como el presente contemporáneo.
                       </h4>
+
                     </div>
 
                     
@@ -463,7 +509,7 @@
                     <div class="w3-container">
                       <h3>Nelson Diaz</h3>
                       <p class="w3-opacity">CEO & Fundador</p>
-                      <p>Movil: 829-659-6483</p>
+                      <a href="tel:+18296596483" style="text-decoration: none;" class="admin_num">Móvil: 829-659-6483</a>
                     </div>
                   </div>
                 </div>
@@ -486,8 +532,8 @@
 
                     <div class="w3-container">
                       <h3>Vivian Diaz</h3>
-                      <p class="w3-opacity">Administradorar</p>
-                      <p>Movil: 829-509-6482</p>
+                      <p class="w3-opacity">Administradora</p>
+                      <a href="tel:+18295096482" style="text-decoration: none;" class="admin_num">Móvil: 829-509-6482</a>
                       <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
                     </div>
                   </div>
